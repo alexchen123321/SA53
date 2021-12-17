@@ -23,11 +23,11 @@ public class FullstackApplication {
 	@Bean
 	CommandLineRunner runner() {
 		return args -> { 
-			Student s1 = new Student("S1", "William", "Willy", 100);
+			Student s1 = new Student("S1", "Cai Ivan", "YongXin", 100);
 			srepo.save(s1);
-			Student s2 = new Student("S2", "Zerita", "Zen", 100);
+			Student s2 = new Student("S2", "Steven", "Wong Yin", 100);
 			srepo.save(s2);
-			Student s3 = new Student("S3", "Lee Yiquan", "Lee", 100);
+			Student s3 = new Student("S3", "Ong", "Ee Loon", 100);
 			srepo.save(s3);
 			};
 	}
